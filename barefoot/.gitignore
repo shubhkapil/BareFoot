@@ -1,0 +1,7 @@
+cityScraper/.env
+package-lock.json
+node_modules
+touristDestinationScraper/.env
+addressEncoder/.env
+ratingEngine/.env
+backend/.env
