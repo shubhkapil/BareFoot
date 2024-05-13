@@ -1,0 +1,171 @@
+/* Add styles for logo */
+.logo {
+  display: block;
+  margin: 50px auto 50px; /* Center the logo and add space below */
+  max-width: 400px; /* Set maximum width for the logo */
+}
+h2 {
+  color: black;
+}
+.bgc {
+  background: linear-gradient(to bottom, #222831, #393e46); /* Gradient from #222831 to #393e46 */
+  background-color: #222831; /* Fallback background color */
+  border-radius: 10px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+
+/* Other styles remain the same */
+body {
+  font-family: Arial, sans-serif;
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url(./wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+}
+.button {
+  background-color: #f6b17a;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  background: linear-gradient(to bottom, #222831, #393e46); /* Gradient from #222831 to #393e46 */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  color: #FFFFFF; /* Set text color to white for better contrast */
+  font-family: Arial, sans-serif; /* Use a sans-serif font */
+}
+
+.container h1 {
+  font-size: 24px; /* Set font size for headings */
+  margin-bottom: 20px; /* Add spacing below headings */
+}
+
+.container p {
+  font-size: 16px; /* Set font size for paragraphs */
+  line-height: 1.5; /* Set line height for readability */
+}
+
+.container a {
+  color: #f9c74f; /* Set link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.container a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.container .content {
+  background-color: rgba(255, 255, 255, 0.2); /* Add a semi-transparent background */
+  padding: 20px; /* Add padding to the content */
+  border-radius: 10px; /* Add rounded corners */
+  margin-top: 20px; /* Add spacing at the top */
+}
+
+.container .content h2 {
+  font-size: 20px; /* Set font size for subheadings */
+  margin-bottom: 10px; /* Add spacing below subheadings */
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.input-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.input-section2 input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.input-section input,
+.input-section button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.input-section input:focus,
+.input-section button:focus {
+  outline: none;
+}
+.places-list {
+  display: flex;
+  flex-direction: column;
+}
+.place-block {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  background: linear-gradient(to bottom, #88AB8E, #52796F); /* Gradient from #88AB8E to #52796F */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.place-block:hover {
+  transform: translateY(-5px); /* Move the block upward slightly on hover */
+}
+
+.place-image {
+  width: 100px; /* Set the width of the image */
+  height: 100px; /* Set the height of the image */
+  margin-right: 20px; /* Add some spacing between the image and the text */
+  border-radius: 50%; /* Make the image round */
+}
+
+.place-details {
+  flex: 1; /* Allow the text to expand to fill the remaining space */
+  color: white; /* Set the color of the text */
+}
+
+.place-name {
+  font-size: 18px; /* Set the font size of the name */
+  font-weight: bold; /* Make the name bold */
+  margin-bottom: 5px; /* Add some spacing below the name */
+}
+
+.place-description {
+  font-size: 14px; /* Set the font size of the description */
+  line-height: 1.5; /* Set the line height */
+}
+.place-block .place-image {
+  max-width: 200px; /* Limit image width */
+  margin-right: 20px; /* Add space between image and info */
+}
+.place-block .place-info {
+  flex-grow: 1; /* Allow info to grow to fill remaining space */
+}
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.left-arrow {
+  border-top: 10px solid #ffffff;
+  float: left;
+  margin-top: -10px;
+  margin-right: 5px;
+}
+.right-arrow {
+  border-top: 10px solid #ffffff;
+  float: right;
+  margin-top: -10px;
+  margin-left: 5px;
+}

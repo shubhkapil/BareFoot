@@ -1,0 +1,31 @@
+{
+  "name": "sanyam_shit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.6.0",
+    "geo-distance-js": "^1.0.0",
+    "haversine-distance": "^1.2.1",
+    "helmet": "^6.0.0",
+    "hpp": "^0.2.3",
+    "mongodb": "^6.3.0",
+    "mongoose": "^6.7.1",
+    "morgan": "^1.10.0",
+    "puppeteer": "^19.2.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "xss-clean": "^0.1.1"
+  }
+}
